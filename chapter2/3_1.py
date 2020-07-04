@@ -1,6 +1,3 @@
-"""
-
-"""
 
 def find_dup(lst):
     for i in range(len(lst)):
