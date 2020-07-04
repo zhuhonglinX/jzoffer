@@ -3,14 +3,11 @@
 """
 
 def find_dup(lst):
-    
     for i in range(len(lst)):
         while lst[i] != i:
             m = lst[i]
-
             if lst[m] == lst[i]:
                 return m
-            
             # swap number position i and m
             lst[i], lst[m] = lst[m], lst[i]
 
